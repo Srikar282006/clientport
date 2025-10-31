@@ -72,7 +72,7 @@ const ContactForm = () => {
         e.preventDefault(); 
 
         try {
-            const response = await fetch('http://localhost:5000/send_email', {
+            const response = await fetch('https://personalportfolio-1-yq4o.onrender.com/send_email', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
